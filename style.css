@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.text-primary{
+    color: #FD6E0A;
+}
+
+.btn-primary{
+    color: #ffffff;
+    height: 64px;
+    width: 150px;
+    padding: 18px 36px;
+    border-radius: 5px;
+    border: 0;
+    font-weight: 700;
+    background: #FD6E0A;
+
+}
+/* header and navigation */
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+.nav-tittle{
+    font-weight: 800;
+    font-size: 45px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav li {
+    list-style: none;
+    margin-left: 50px;
+}
